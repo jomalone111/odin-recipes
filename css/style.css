@@ -1,0 +1,42 @@
+body {
+    font-family: "Raleway", san-serif;
+    font-size: 18px;
+    margin: auto;
+    width: 70%;
+    text-align: left;
+    background-color: #818080;
+}
+h1 {
+    margin: 0;
+    padding: 20px 10px 10px 10px;
+    font-family: "Merriweather";
+    font-weight: bold; 
+}
+h2 {
+    font-family: "Merriweather", serif;
+    margin-top: 0px;
+}
+li {
+    margin-top: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.emphasis {
+    font-style: italic;
+}
+.photo-ref {
+    color:#4e4e4e;
+    font-size: 14px
+}
+.content {
+    background-color: #e6e6e6;
+    height: 100%;
+    padding: 10px;
+}
+.return-link {
+    padding: 10px;
+    background-color: #acc0b6;
+}

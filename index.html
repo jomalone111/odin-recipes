@@ -3,38 +3,39 @@
 <html lang="en">
 <head>
     <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Raleway|Merriweather">
-    <style>
-        body {
-            font-family: "Merriweather", sans-serif;
-            margin: auto;
-            width: 70%;
-            text-align: left;
-        }
-        h1 {
-            margin: -1,0,0,0;
-            font-family: "Raleway";
-            background-color: #baf0d3e5;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <div>
+    <div class="content">
         <h1>Odin Recipes</h1>
         <hr>
-        <p>Here is a list of our favorite recipes:</p>
-        <div id="unordered-list">
-            <ul>
-                <li><a href="recipes/brownies.html">Brownies</a></li>
-                <li><a href="recipes/cheesecake.html">Cheesecake</a></li>
-                <li><a href="recipes/margarita.html">Margarita</a></li>
-            </ul>
+        <div class="grid-container">
+            <div>
+                <img src="img/hmpage.jpg" alt="two people cooking" width= 500px>
+                <p class="photo-ref">Photo by <a href="https://unsplash.com/@soroushkarimi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Soroush Karimi</a> on <a href="https://unsplash.com/s/photos/home-cooking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </p>
+            </div>
+            <div>
+                <p>Here is a list of our favorite recipes:</p>
+                <div id="unordered-list">
+                    <ul>
+                        <li><a href="recipes/brownies.html">Brownies</a></li>
+                        <li><a href="recipes/cheesecake.html">Cheesecake</a></li>
+                        <li><a href="recipes/margarita.html">Margarita</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="return-link">
+            <p>This website was created as a project from The Odin Project's foundations course</p>
         </div>
     </div>
+    
+    
     
 </body>
 </html>
